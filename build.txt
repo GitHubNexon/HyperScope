@@ -21,3 +21,6 @@ EAS BUILD
 npx expo run:android --variant debug
 
 npx expo run:android --variant release
+
+
+https://www.youtube.com/watch?v=M0fX3VpIiN8&t=273s
