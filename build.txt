@@ -16,3 +16,8 @@ cd android
 EAS BUILD
 
  eas build --platform android --profile production
+
+
+npx expo run:android --variant debug
+
+npx expo run:android --variant release
