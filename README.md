@@ -6,6 +6,14 @@ HyperScope is a modern, full-stack **News App** built with **React Native**, pow
 
 ---
 
+## 📱 Download
+
+👉 [Download Debug APK](./mobile/android/app/build/outputs/apk/debug/hyperscope-app.apk) — For testing on Android devices
+
+> ⚠️ This is a debug build and not intended for production use or Play Store publishing.
+
+---
+
 ## ✨ Features
 
 - 🌐 Fetch breaking news by **category** and **country**
@@ -14,7 +22,6 @@ HyperScope is a modern, full-stack **News App** built with **React Native**, pow
 - 📅 Scheduling & local **notifications**
 - 🛠️ Fully typed with **TypeScript**
 
-
 ---
 
 ## 📦 Tech Stack
@@ -22,9 +29,8 @@ HyperScope is a modern, full-stack **News App** built with **React Native**, pow
 - **Frontend:** React Native (Expo), TypeScript  
 - **Navigation:** React Navigation  
 - **State & Logic:** Context API / Custom Hooks  
-- **Styling:** Custom Theming with Styled Components
+- **Styling:** Custom Theming with Styled Components  
 - **API:** News API integration  
 - **Notifications:** Local Notifications in App Notifications
 
 ---
-

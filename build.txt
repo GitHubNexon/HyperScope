@@ -1,0 +1,19 @@
+npx expo prebuild
+
+cd android
+
+./gradlew assembleDebug
+
+
+2. For Release APK
+It’s a bit more complex because you need to sign it, but it’s still doable with just the command line:
+
+Generate a keystore using keytool (comes with JDK)
+
+Add signing config in android/app/build.gradle
+
+Run:
+
+./gradlew assembleRelease
+
+The unsigned APK will be in the release folder; if you configured signing, it will be signed.
