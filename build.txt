@@ -17,10 +17,61 @@ EAS BUILD
 
  eas build --platform android --profile production
 
+------
 
-npx expo run:android --variant debug
 
-npx expo run:android --variant release
+
+npx expo prebuild
+
+
+https://reactnative.dev/docs/signed-apk-android
+
+create password
+
+openssl rand -hex 32
+
+
+paste this 
+
+keytool -genkeypair -v -storetype PKCS12 -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+
+put the password 
+
+after that look for 
+
+my-upload-key.keystore
+
+in C:\Program Files\Java\jdk-24\bin>
+
+go to gradle.properties file
+
+
+MYAPP_UPLOAD_STORE_FILE=my-upload-key.keystore
+MYAPP_UPLOAD_KEY_ALIAS=my-key-alias
+MYAPP_UPLOAD_STORE_PASSWORD=*****
+MYAPP_UPLOAD_KEY_PASSWORD=*****
+
+
+
+
+
+npx expo run:android --variant release 
+
+or 
+
+
+
 
 
 https://www.youtube.com/watch?v=M0fX3VpIiN8&t=273s
+
+-----------------------------------------
+
+for development 
+
+npx expo prebuild
+
+npx expo run:android --variant debug
+
+
+C:\VSCode_Projects\HyperScope\mobile\android\app\build\outputs\apk\release\app-release.apk

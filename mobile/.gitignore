@@ -40,3 +40,7 @@ yarn-error.*
 
 
 #git rm --cached .env
+
+
+android/gradle.properties
+android/app/my-upload-key.keystore

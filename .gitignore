@@ -37,3 +37,7 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+
+android/gradle.properties
+android/app/my-upload-key.keystore

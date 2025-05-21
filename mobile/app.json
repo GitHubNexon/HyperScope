@@ -28,7 +28,10 @@
     },
     "extra": {
       "NEWS_API_KEY": "aa783906edfb425eb1f948d8c2902650",
-      "API_URL": "https://newsapi.org/v2"
+      "API_URL": "https://newsapi.org/v2",
+      "eas": {
+        "projectId": "2f37164c-eb4d-402d-b1d8-af91cd99459d"
+      }
     }
   }
 }
