@@ -13,7 +13,7 @@
     },
     "production": {
       "autoIncrement": true,
-      "node": "18.14.2",
+      "node": "20.11.1",
       "env": {
         "NEWS_API_KEY": "aa783906edfb425eb1f948d8c2902650",
         "API_URL": "https://newsapi.org/v2"
